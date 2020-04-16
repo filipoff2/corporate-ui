@@ -35,3 +35,12 @@ Thumbs.db
 UserInterfaceState.xcuserstate
 .env
 .npmrc
+Xamarin/StyleGuide/StyledApp.Less/obj/
+Xamarin/StyleGuide/StyleGuide/StyleGuide.Android/bin/
+Xamarin/StyleGuide/StyleGuide/StyleGuide.Android/obj/
+Xamarin/StyleGuide/StyleGuide/StyleGuide.iOS/bin/
+Xamarin/StyleGuide/StyleGuide/StyleGuide.UWP/bin/
+Xamarin/StyleGuide/StyleGuide/StyleGuide.UWP/obj/
+Xamarin/StyleGuide/StyleGuide/StyleGuide/obj/
+Xamarin/StyleGuide/StyleGuide/StyleGuide/bin/
+Xamarin/StyleGuide/StyleGuide/StyleGuide.iOS/obj/
