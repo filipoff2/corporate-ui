@@ -1,14 +1,13 @@
 ﻿var gulp = require("gulp"),
-    fs = require("fs"),
     less = require("gulp-less");
 
+var cssOutPutFolder = "../StyleGuide/StyleGuide/Styles";
 
-gulp.task("Build Less File", function () {
-    return gulp.src('MainPage.less')
+gulp.task("less", function () {
+    return gulp.src("MainPage.less")
         .pipe(less())
-        .pipe(gulp.dest('../StyleGuide/Styles'));
+        .pipe(gulp.dest(cssOutPutFolder));
 });
 
 
-
-gulp.task('default', ['Build Less File']); 
+gulp.task('default', gulp.series(['less'])); 
