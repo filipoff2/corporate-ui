@@ -4,7 +4,7 @@
 var cssOutPutFolder = "../StyleGuide/StyleGuide/Styles";
 
 gulp.task("less", function () {
-    return gulp.src("MainPage.less")
+    return gulp.src("*.less")
         .pipe(less())
         .pipe(gulp.dest(cssOutPutFolder));
 });

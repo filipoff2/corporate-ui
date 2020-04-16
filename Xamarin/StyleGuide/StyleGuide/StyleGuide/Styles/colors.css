@@ -1,0 +1,305 @@
+/*** COLOR CLASSES (Custom classes for labels, badges and other special effects / notifications) ***/
+.color-brand-01 {
+  color: #041e42 !important;
+}
+.color-brand-02 {
+  color: #fafafa !important;
+}
+.color-brand-03 {
+  color: #d6001c !important;
+}
+.color-primary-01 {
+  color: #c8c9c7 !important;
+}
+.color-primary-02 {
+  color: #97999b !important;
+}
+.color-primary-03 {
+  color: #53565a !important;
+}
+.color-primary-04 {
+  color: #2d2926 !important;
+}
+.color-secondary-01 {
+  color: #e35205 !important;
+}
+.color-secondary-02 {
+  color: #ceb888 !important;
+}
+.color-secondary-03 {
+  color: #94a596 !important;
+}
+.color-secondary-04 {
+  color: #2c5234 !important;
+}
+.color-tertiary-01 {
+  color: #448691 !important;
+}
+.color-tertiary-02 {
+  color: #5e3885 !important;
+}
+.color-tertiary-03 {
+  color: #005d6d !important;
+}
+.color-tertiary-04 {
+  color: #e1a93e !important;
+}
+.color-tertiary-05 {
+  color: #896a73 !important;
+}
+.color-tertiary-06 {
+  color: #5da7a9 !important;
+}
+.color-tertiary-07 {
+  color: #60b269 !important;
+}
+.color-grey1 {
+  color: #fafafa !important;
+}
+.color-grey2 {
+  color: #f6f9fa !important;
+}
+.color-grey3 {
+  color: #f0f0f0 !important;
+}
+.color-grey4 {
+  color: #e7e8ea !important;
+}
+.color-grey5 {
+  color: #e2e2e2 !important;
+}
+.color-grey6 {
+  color: #c8c9c7 !important;
+}
+.color-grey7 {
+  color: #97999b !important;
+}
+.color-grey8 {
+  color: #53565a !important;
+}
+.color-grey9 {
+  color: #2d2926 !important;
+}
+.color-primary {
+  color: #041e42 !important;
+}
+.color-success {
+  color: #44a878 !important;
+}
+.color-warning {
+  color: #f2855f !important;
+}
+.color-danger {
+  color: #cc1040 !important;
+}
+.color-info {
+  color: #4a8ba4 !important;
+}
+.color-disabled {
+  color: #ddd !important;
+}
+.bg-brand-01 {
+  background-color: #041e42 !important;
+}
+.bg-brand-02 {
+  background-color: #fafafa !important;
+}
+.bg-brand-03 {
+  background-color: #d6001c !important;
+}
+.bg-primary-01 {
+  background-color: #c8c9c7 !important;
+}
+.bg-primary-02 {
+  background-color: #97999b !important;
+}
+.bg-primary-03 {
+  background-color: #53565a !important;
+}
+.bg-primary-04 {
+  background-color: #2d2926 !important;
+}
+.bg-secondary-01 {
+  background-color: #e35205 !important;
+}
+.bg-secondary-02 {
+  background-color: #ceb888 !important;
+}
+.bg-secondary-03 {
+  background-color: #94a596 !important;
+}
+.bg-secondary-04 {
+  background-color: #2c5234 !important;
+}
+.bg-tertiary-01 {
+  background-color: #448691 !important;
+}
+.bg-tertiary-02 {
+  background-color: #5e3885 !important;
+}
+.bg-tertiary-03 {
+  background-color: #005d6d !important;
+}
+.bg-tertiary-04 {
+  background-color: #e1a93e !important;
+}
+.bg-tertiary-05 {
+  background-color: #896a73 !important;
+}
+.bg-tertiary-06 {
+  background-color: #5da7a9 !important;
+}
+.bg-tertiary-07 {
+  background-color: #60b269 !important;
+}
+.bg-tertiary-01.bright {
+  background-color: #58a4b0 !important;
+}
+.bg-tertiary-02.bright {
+  background-color: #7747a9 !important;
+}
+.bg-tertiary-03.bright {
+  background-color: #0089a0 !important;
+}
+.bg-tertiary-04.bright {
+  background-color: #e8bd6a !important;
+}
+.bg-tertiary-05.bright {
+  background-color: #a1858d !important;
+}
+.bg-tertiary-06.bright {
+  background-color: #7eb9bb !important;
+}
+.bg-tertiary-07.bright {
+  background-color: #82c389 !important;
+}
+.bg-transparent {
+  background-color: transparent !important;
+}
+.bg-white {
+  background-color: #fff !important;
+}
+.bg-grey1 {
+  background-color: #fafafa !important;
+}
+.bg-grey2 {
+  background-color: #f6f9fa !important;
+}
+.bg-grey3 {
+  background-color: #f0f0f0 !important;
+}
+.bg-grey4 {
+  background-color: #e7e8ea !important;
+}
+.bg-grey5 {
+  background-color: #e2e2e2 !important;
+}
+.bg-grey6 {
+  background-color: #c8c9c7 !important;
+}
+.bg-grey7 {
+  background-color: #97999b !important;
+}
+.bg-grey8 {
+  background-color: #53565a !important;
+}
+.bg-grey9 {
+  background-color: #2d2926 !important;
+}
+.bg-primary {
+  background-color: #041e42 !important;
+}
+.bg-success {
+  background-color: #44a878 !important;
+}
+.bg-warning {
+  background-color: #f2855f !important;
+}
+.bg-danger {
+  background-color: #cc1040 !important;
+}
+.bg-info {
+  background-color: #4a8ba4 !important;
+}
+.bg-default-bright {
+  background-color: #e7e5ea !important;
+}
+.bg-primary-bright {
+  background-color: #d9dde3 !important;
+}
+.bg-success-bright {
+  background-color: #e3f2eb !important;
+}
+.bg-warning-bright {
+  background-color: #fdede7 !important;
+}
+.bg-danger-bright {
+  background-color: #f7dbe2 !important;
+}
+.bg-info-bright {
+  background-color: #e4eef1 !important;
+}
+.bg-half-primary {
+  background-image: linear-gradient(to bottom right, transparent 0%, transparent 50%, #041e42 50%, #041e42 100%) !important;
+}
+.bg-half-success {
+  background-image: linear-gradient(to bottom right, transparent 0%, transparent 50%, #44a878 50%, #44a878 100%) !important;
+}
+.bg-half-warning {
+  background-image: linear-gradient(to bottom right, transparent 0%, transparent 50%, #f2855f 50%, #f2855f 100%) !important;
+}
+.bg-half-danger {
+  background-image: linear-gradient(to bottom right, transparent 0%, transparent 50%, #cc1040 50%, #cc1040 100%) !important;
+}
+.bg-half-info {
+  background-image: linear-gradient(to bottom right, transparent 0%, transparent 50%, #4a8ba4 50%, #4a8ba4 100%) !important;
+}
+.chart-series-01 {
+  background-color: #041E42;
+  fill: #041E42;
+}
+.chart-series-02 {
+  background-color: #97999B;
+  fill: #97999B;
+}
+.chart-series-03 {
+  background-color: #CEB888;
+  fill: #CEB888;
+}
+.chart-series-04 {
+  background-color: #94A596;
+  fill: #94A596;
+}
+.chart-series-05 {
+  background-color: #53565A;
+  fill: #53565A;
+}
+.chart-series-06 {
+  background-color: #9bA5B4;
+  fill: #9bA5B4;
+}
+.chart-series-07 {
+  background-color: #C8C9C7;
+  fill: #C8C9C7;
+}
+.chart-series-08 {
+  background-color: #448691;
+  fill: #448691;
+}
+.chart-series-09 {
+  background-color: #896A73;
+  fill: #896A73;
+}
+.chart-series-10 {
+  background-color: #2C5234;
+  fill: #2C5234;
+}
+.bg-gradient-01 {
+  background-image: linear-gradient(90deg, #60e266, #b9ee51, #ffec00, #eda053, #e16060) !important;
+}
+.bg-cross {
+  background-image: linear-gradient(to bottom right, transparent 45%, #ddd 48%, #ddd 51%, transparent 55%), linear-gradient(to bottom left, transparent 45%, #ddd 48%, #ddd 51%, transparent 55%) !important;
+}
+.bg-disabled {
+  color: #ddd !important;
+}
