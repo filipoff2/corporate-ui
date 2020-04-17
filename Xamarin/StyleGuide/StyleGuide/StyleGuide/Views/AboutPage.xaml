@@ -5,33 +5,23 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="StyleGuide.Views.AboutPage"
-             xmlns:vm="clr-namespace:StyleGuide.ViewModels"
+             xmlns:vm="clr-namespace:StyleGuide.ViewModels" 
+             xmlns:pseudoHTML="clr-namespace:StyleGuide.Components"
+             xmlns:pHTML="clr-namespace:StyleGuide.Components"
+         
              Title="{Binding Title}">
-    
+    <ContentPage.Resources>
+        <StyleSheet Source="/Styles/colors.css"/>
+    </ContentPage.Resources>
     <ContentPage.BindingContext>
         <vm:AboutViewModel />
     </ContentPage.BindingContext>
     
-    <ContentPage.Resources>
-        <ResourceDictionary>
-            <Color x:Key="Primary">#2196F3</Color>
-            <Color x:Key="Accent">#96d1ff</Color>
-            <Color x:Key="LightTextColor">#999999</Color>
-        </ResourceDictionary>
-    </ContentPage.Resources>
-
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <StackLayout BackgroundColor="{StaticResource Accent}" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
-            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
-                <ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand">
-                    <Image Source="xamarin_logo.png" VerticalOptions="Center" HeightRequest="64" />
-                </ContentView>
-            </StackLayout>
-        </StackLayout>
         <ScrollView Grid.Row="1">
             <StackLayout Orientation="Vertical" Padding="16,40,16,40" Spacing="10">
                 <Label Text="Welcome to Xamarin.Forms!" 
@@ -47,60 +37,38 @@
     FontFamily="Byom_Icons_Trial" FontSize="22" 
     HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
 
-                <Label Text=";" 
-    FontFamily="Byom_Icons_Trial" FontSize="22" 
-    HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-
-   
 
                 <Label Text="&#x003B;" 
     FontFamily="Byom_Icons_Trial" FontSize="22" 
     HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
 
                 <Label Text="&#x003B;"
-    FontFamily="Icon" FontSize="22" 
+    FontFamily="Icons" FontSize="22" 
     HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
 
-                <Label FontSize="22">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <FormattedString.Spans>
-                                <Span Text="AppName" FontAttributes="Bold" FontSize="22" />
-                                <Span Text=" " />
-                                <Span Text="1.0" ForegroundColor="{StaticResource LightTextColor}" />
-                            </FormattedString.Spans>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-                <Label>
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <FormattedString.Spans>
-                                <Span Text="This app is written in C# and native APIs using the" />
-                                <Span Text=" " />
-                                <Span Text="Xamarin Platform" FontAttributes="Bold" />
-                                <Span Text="." />
-                            </FormattedString.Spans>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-                <Label>
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <FormattedString.Spans>
-                                <Span Text="It shares code with its" />
-                                <Span Text=" " />
-                                <Span Text="iOS, Android, and Windows" FontAttributes="Bold" />
-                                <Span Text=" " />
-                                <Span Text="versions." />
-                            </FormattedString.Spans>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-                <Button Margin="0,10,0,0" Text="Learn more"
-                        Command="{Binding OpenWebCommand}"
-                        BackgroundColor="{StaticResource Primary}"
-                        TextColor="White" />
+                <pseudoHTML:H1>
+                    I'm a header default
+                </pseudoHTML:H1>
+
+                <pseudoHTML:H1 StyleClass="color-primary-01">
+                    I'm a header 
+                </pseudoHTML:H1>
+
+                <pHTML:H1 StyleClass="color-tertiary-01">
+                    I'm a header color-tertiary-01
+                </pHTML:H1>
+
+                <pHTML:H2 StyleClass="color-secondary-01">
+                    I'm a header 2  color-secondary-01
+                </pHTML:H2>
+
+                <pHTML:H2 StyleClass="color-secondary-01">
+                    I'm a header 2  color-secondary-01
+                </pHTML:H2>
+
+                <pHTML:CIcon Text="&#x003B;" StyleClass="color-tertiary-01"/>
+                <pHTML:CIcon Text="{x:Static pHTML:CIconNames.Arrow}" StyleClass="color-tertiary-02"/>
+                
             </StackLayout>
         </ScrollView>
     </Grid>

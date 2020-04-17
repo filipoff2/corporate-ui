@@ -1,258 +1,258 @@
 /*** COLOR CLASSES (Custom classes for labels, badges and other special effects / notifications) ***/
 .color-brand-01 {
-  color: #041e42 !important;
+  color: #041e42 ;
 }
 .color-brand-02 {
-  color: #fafafa !important;
+  color: #fafafa ;
 }
 .color-brand-03 {
-  color: #d6001c !important;
+  color: #d6001c ;
 }
 .color-primary-01 {
-  color: #c8c9c7 !important;
+  color: #c8c9c7 ;
 }
 .color-primary-02 {
-  color: #97999b !important;
+  color: #97999b ;
 }
 .color-primary-03 {
-  color: #53565a !important;
+  color: #53565a ;
 }
 .color-primary-04 {
-  color: #2d2926 !important;
+  color: #2d2926 ;
 }
 .color-secondary-01 {
-  color: #e35205 !important;
+  color: #e35205 ;
 }
 .color-secondary-02 {
-  color: #ceb888 !important;
+  color: #ceb888 ;
 }
 .color-secondary-03 {
-  color: #94a596 !important;
+  color: #94a596 ;
 }
 .color-secondary-04 {
-  color: #2c5234 !important;
+  color: #2c5234 ;
 }
 .color-tertiary-01 {
-  color: #448691 !important;
+  color: #448691 ;
 }
 .color-tertiary-02 {
-  color: #5e3885 !important;
+  color: #5e3885 ;
 }
 .color-tertiary-03 {
-  color: #005d6d !important;
+  color: #005d6d ;
 }
 .color-tertiary-04 {
-  color: #e1a93e !important;
+  color: #e1a93e ;
 }
 .color-tertiary-05 {
-  color: #896a73 !important;
+  color: #896a73 ;
 }
 .color-tertiary-06 {
-  color: #5da7a9 !important;
+  color: #5da7a9 ;
 }
 .color-tertiary-07 {
-  color: #60b269 !important;
+  color: #60b269 ;
 }
 .color-grey1 {
-  color: #fafafa !important;
+  color: #fafafa ;
 }
 .color-grey2 {
-  color: #f6f9fa !important;
+  color: #f6f9fa ;
 }
 .color-grey3 {
-  color: #f0f0f0 !important;
+  color: #f0f0f0 ;
 }
 .color-grey4 {
-  color: #e7e8ea !important;
+  color: #e7e8ea ;
 }
 .color-grey5 {
-  color: #e2e2e2 !important;
+  color: #e2e2e2 ;
 }
 .color-grey6 {
-  color: #c8c9c7 !important;
+  color: #c8c9c7 ;
 }
 .color-grey7 {
-  color: #97999b !important;
+  color: #97999b ;
 }
 .color-grey8 {
-  color: #53565a !important;
+  color: #53565a ;
 }
 .color-grey9 {
-  color: #2d2926 !important;
+  color: #2d2926 ;
 }
 .color-primary {
-  color: #041e42 !important;
+  color: #041e42 ;
 }
 .color-success {
-  color: #44a878 !important;
+  color: #44a878 ;
 }
 .color-warning {
-  color: #f2855f !important;
+  color: #f2855f ;
 }
 .color-danger {
-  color: #cc1040 !important;
+  color: #cc1040 ;
 }
 .color-info {
-  color: #4a8ba4 !important;
+  color: #4a8ba4 ;
 }
 .color-disabled {
-  color: #ddd !important;
+  color: #ddd ;
 }
 .bg-brand-01 {
-  background-color: #041e42 !important;
+  background-color: #041e42 ;
 }
 .bg-brand-02 {
-  background-color: #fafafa !important;
+  background-color: #fafafa ;
 }
 .bg-brand-03 {
-  background-color: #d6001c !important;
+  background-color: #d6001c ;
 }
 .bg-primary-01 {
-  background-color: #c8c9c7 !important;
+  background-color: #c8c9c7 ;
 }
 .bg-primary-02 {
-  background-color: #97999b !important;
+  background-color: #97999b ;
 }
 .bg-primary-03 {
-  background-color: #53565a !important;
+  background-color: #53565a ;
 }
 .bg-primary-04 {
-  background-color: #2d2926 !important;
+  background-color: #2d2926 ;
 }
 .bg-secondary-01 {
-  background-color: #e35205 !important;
+  background-color: #e35205 ;
 }
 .bg-secondary-02 {
-  background-color: #ceb888 !important;
+  background-color: #ceb888 ;
 }
 .bg-secondary-03 {
-  background-color: #94a596 !important;
+  background-color: #94a596 ;
 }
 .bg-secondary-04 {
-  background-color: #2c5234 !important;
+  background-color: #2c5234 ;
 }
 .bg-tertiary-01 {
-  background-color: #448691 !important;
+  background-color: #448691 ;
 }
 .bg-tertiary-02 {
-  background-color: #5e3885 !important;
+  background-color: #5e3885 ;
 }
 .bg-tertiary-03 {
-  background-color: #005d6d !important;
+  background-color: #005d6d ;
 }
 .bg-tertiary-04 {
-  background-color: #e1a93e !important;
+  background-color: #e1a93e ;
 }
 .bg-tertiary-05 {
-  background-color: #896a73 !important;
+  background-color: #896a73 ;
 }
 .bg-tertiary-06 {
-  background-color: #5da7a9 !important;
+  background-color: #5da7a9 ;
 }
 .bg-tertiary-07 {
-  background-color: #60b269 !important;
+  background-color: #60b269 ;
 }
 .bg-tertiary-01.bright {
-  background-color: #58a4b0 !important;
+  background-color: #58a4b0 ;
 }
 .bg-tertiary-02.bright {
-  background-color: #7747a9 !important;
+  background-color: #7747a9 ;
 }
 .bg-tertiary-03.bright {
-  background-color: #0089a0 !important;
+  background-color: #0089a0 ;
 }
 .bg-tertiary-04.bright {
-  background-color: #e8bd6a !important;
+  background-color: #e8bd6a ;
 }
 .bg-tertiary-05.bright {
-  background-color: #a1858d !important;
+  background-color: #a1858d ;
 }
 .bg-tertiary-06.bright {
-  background-color: #7eb9bb !important;
+  background-color: #7eb9bb ;
 }
 .bg-tertiary-07.bright {
-  background-color: #82c389 !important;
+  background-color: #82c389 ;
 }
 .bg-transparent {
-  background-color: transparent !important;
+  background-color: transparent ;
 }
 .bg-white {
-  background-color: #fff !important;
+  background-color: #fff ;
 }
 .bg-grey1 {
-  background-color: #fafafa !important;
+  background-color: #fafafa ;
 }
 .bg-grey2 {
-  background-color: #f6f9fa !important;
+  background-color: #f6f9fa ;
 }
 .bg-grey3 {
-  background-color: #f0f0f0 !important;
+  background-color: #f0f0f0 ;
 }
 .bg-grey4 {
-  background-color: #e7e8ea !important;
+  background-color: #e7e8ea ;
 }
 .bg-grey5 {
-  background-color: #e2e2e2 !important;
+  background-color: #e2e2e2 ;
 }
 .bg-grey6 {
-  background-color: #c8c9c7 !important;
+  background-color: #c8c9c7 ;
 }
 .bg-grey7 {
-  background-color: #97999b !important;
+  background-color: #97999b ;
 }
 .bg-grey8 {
-  background-color: #53565a !important;
+  background-color: #53565a ;
 }
 .bg-grey9 {
-  background-color: #2d2926 !important;
+  background-color: #2d2926 ;
 }
 .bg-primary {
-  background-color: #041e42 !important;
+  background-color: #041e42 ;
 }
 .bg-success {
-  background-color: #44a878 !important;
+  background-color: #44a878 ;
 }
 .bg-warning {
-  background-color: #f2855f !important;
+  background-color: #f2855f ;
 }
 .bg-danger {
-  background-color: #cc1040 !important;
+  background-color: #cc1040 ;
 }
 .bg-info {
-  background-color: #4a8ba4 !important;
+  background-color: #4a8ba4 ;
 }
 .bg-default-bright {
-  background-color: #e7e5ea !important;
+  background-color: #e7e5ea ;
 }
 .bg-primary-bright {
-  background-color: #d9dde3 !important;
+  background-color: #d9dde3 ;
 }
 .bg-success-bright {
-  background-color: #e3f2eb !important;
+  background-color: #e3f2eb ;
 }
 .bg-warning-bright {
-  background-color: #fdede7 !important;
+  background-color: #fdede7 ;
 }
 .bg-danger-bright {
-  background-color: #f7dbe2 !important;
+  background-color: #f7dbe2 ;
 }
 .bg-info-bright {
-  background-color: #e4eef1 !important;
+  background-color: #e4eef1 ;
 }
 .bg-half-primary {
-  background-image: linear-gradient(to bottom right, transparent 0%, transparent 50%, #041e42 50%, #041e42 100%) !important;
+  background-image: linear-gradient(to bottom right, transparent 0%, transparent 50%, #041e42 50%, #041e42 100%) ;
 }
 .bg-half-success {
-  background-image: linear-gradient(to bottom right, transparent 0%, transparent 50%, #44a878 50%, #44a878 100%) !important;
+  background-image: linear-gradient(to bottom right, transparent 0%, transparent 50%, #44a878 50%, #44a878 100%) ;
 }
 .bg-half-warning {
-  background-image: linear-gradient(to bottom right, transparent 0%, transparent 50%, #f2855f 50%, #f2855f 100%) !important;
+  background-image: linear-gradient(to bottom right, transparent 0%, transparent 50%, #f2855f 50%, #f2855f 100%) ;
 }
 .bg-half-danger {
-  background-image: linear-gradient(to bottom right, transparent 0%, transparent 50%, #cc1040 50%, #cc1040 100%) !important;
+  background-image: linear-gradient(to bottom right, transparent 0%, transparent 50%, #cc1040 50%, #cc1040 100%) ;
 }
 .bg-half-info {
-  background-image: linear-gradient(to bottom right, transparent 0%, transparent 50%, #4a8ba4 50%, #4a8ba4 100%) !important;
+  background-image: linear-gradient(to bottom right, transparent 0%, transparent 50%, #4a8ba4 50%, #4a8ba4 100%) ;
 }
 .chart-series-01 {
   background-color: #041E42;
@@ -295,11 +295,11 @@
   fill: #2C5234;
 }
 .bg-gradient-01 {
-  background-image: linear-gradient(90deg, #60e266, #b9ee51, #ffec00, #eda053, #e16060) !important;
+  background-image: linear-gradient(90deg, #60e266, #b9ee51, #ffec00, #eda053, #e16060) ;
 }
 .bg-cross {
-  background-image: linear-gradient(to bottom right, transparent 45%, #ddd 48%, #ddd 51%, transparent 55%), linear-gradient(to bottom left, transparent 45%, #ddd 48%, #ddd 51%, transparent 55%) !important;
+  background-image: linear-gradient(to bottom right, transparent 45%, #ddd 48%, #ddd 51%, transparent 55%), linear-gradient(to bottom left, transparent 45%, #ddd 48%, #ddd 51%, transparent 55%) ;
 }
 .bg-disabled {
-  color: #ddd !important;
+  color: #ddd ;
 }
