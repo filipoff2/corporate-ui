@@ -4,8 +4,11 @@ using Xamarin.Forms.Xaml;
 using StyleGuide.Services;
 using StyleGuide.Views;
 
+[assembly: ExportFont("Tech_Headlines.ttf", Alias = "Headlines")]
+[assembly: ExportFont("Byom_Icons_Trial.ttf", Alias = "Icons")]
 namespace StyleGuide
 {
+
     public partial class App : Application
     {
 

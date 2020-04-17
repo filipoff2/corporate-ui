@@ -34,6 +34,33 @@
         </StackLayout>
         <ScrollView Grid.Row="1">
             <StackLayout Orientation="Vertical" Padding="16,40,16,40" Spacing="10">
+                <Label Text="Welcome to Xamarin.Forms!" 
+    FontFamily="Headlines" FontSize="22" 
+    HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                
+                <Label Text="Welcome to Xamarin.Forms!" 
+    FontFamily="Headlines" FontSize="22" 
+    HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+
+
+                <Label Text="1" 
+    FontFamily="Byom_Icons_Trial" FontSize="22" 
+    HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+
+                <Label Text=";" 
+    FontFamily="Byom_Icons_Trial" FontSize="22" 
+    HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+
+   
+
+                <Label Text="&#x003B;" 
+    FontFamily="Byom_Icons_Trial" FontSize="22" 
+    HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+
+                <Label Text="&#x003B;"
+    FontFamily="Icon" FontSize="22" 
+    HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+
                 <Label FontSize="22">
                     <Label.FormattedText>
                         <FormattedString>
